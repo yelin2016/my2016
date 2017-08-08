@@ -1,0 +1,19 @@
+{
+	"info":"论坛舆情挖掘对比界面数量统计",
+	"status":200,
+	"msg":"success",
+	"data":{
+		"left": [
+			{"num":54,"category":"关注度"},
+			{"num":812,"category":"点击量"},
+			{"num":3259,"category":"回复量"},
+			{"num":1263,"category":"发帖数"}
+		],
+		"right": [
+			{"num":54,"category":"关注度"},
+			{"num":812,"category":"点击量"},
+			{"num":3259,"category":"回复量"},
+			{"num":1263,"category":"发帖数"}
+		]
+	}
+}

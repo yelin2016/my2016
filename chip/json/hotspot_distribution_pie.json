@@ -1,0 +1,31 @@
+{
+	"info":"热点舆情分布页面环形图假数据",
+	"status":200,
+	"msg":"success",
+	"data": {
+		"circle1": [
+      {"value":335, "name":"长虹","itemStyle":{"normal":{"color": "#f195bc"}}},
+      {"value":310, "name":"小米","itemStyle":{"normal":{"color": "#f5e58e"}}},
+      {"value":234, "name":"乐视","itemStyle":{"normal":{"color": "#68b4ee"}}},
+      {"value":135, "name":"TCL","itemStyle":{"normal":{"color": "#7f84df"}}},
+      {"value":135, "name":"创维","itemStyle":{"normal":{"color": "#eaa97a"}}},
+      {"value":135, "name":"海信","itemStyle":{"normal":{"color": "#7bdda7"}}}
+    ],
+    "circle2": [
+      {"value":335, "name":"长虹","itemStyle":{"normal":{"color": "#f195bc"}}},
+      {"value":310, "name":"小米","itemStyle":{"normal":{"color": "#f5e58e"}}},
+      {"value":234, "name":"乐视","itemStyle":{"normal":{"color": "#68b4ee"}}},
+      {"value":135, "name":"TCL","itemStyle":{"normal":{"color": "#7f84df"}}},
+      {"value":135, "name":"创维","itemStyle":{"normal":{"color": "#eaa97a"}}},
+      {"value":135, "name":"海信","itemStyle":{"normal":{"color": "#7bdda7"}}}
+    ],
+    "circle3": [
+      {"value":335, "name":"长虹","itemStyle":{"normal":{"color": "#f195bc"}}},
+      {"value":310, "name":"小米","itemStyle":{"normal":{"color": "#f5e58e"}}},
+      {"value":234, "name":"乐视","itemStyle":{"normal":{"color": "#68b4ee"}}},
+      {"value":135, "name":"TCL","itemStyle":{"normal":{"color": "#7f84df"}}},
+      {"value":135, "name":"创维","itemStyle":{"normal":{"color": "#eaa97a"}}},
+      {"value":135, "name":"海信","itemStyle":{"normal":{"color": "#7bdda7"}}}
+    ]
+	}
+}

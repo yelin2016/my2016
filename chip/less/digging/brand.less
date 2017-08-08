@@ -1,0 +1,361 @@
+@import '../constants.less';
+
+.digging-brand {
+	.brand-sw {
+		height: 0.7rem;
+		text-align: right;
+		margin: 0 0.8rem 0 0;
+		>.sw-item {
+			width: 1rem;
+			height: 0.3rem;
+			line-height: 0.3rem;
+			text-align: center;
+			display: inline-block;
+			margin: 0.2rem 0 0 0.02rem;
+			background-color: @grey-blue;
+			cursor: pointer;
+		}
+		>.sw-item.active {
+			background-color: @sky-blue;
+		}
+	}
+	>.scroll-container {
+		margin: 0 0 0 0.2rem;
+		height: 8.25rem;
+		overflow: hidden;
+		position: relative;
+		>.scroll-content {
+			width: 16rem;
+			height: 100%;
+			background-color: @blue;
+			position: absolute;
+			transition: top 0.5s ease-in-out;
+		}
+		>.scrollbar {
+			width: 0.3rem;
+			height: 100%;
+			position: absolute;
+			top: 0;
+			left: 16rem;
+			text-align: center;
+		}
+		.scroll-item {
+			height: 1.16rem;
+			overflow: hidden;
+			position: relative;
+			>.desc {
+				position: absolute;
+				top: 0;
+				padding: 0 0.02rem;
+				padding-top: 0.3rem;
+				line-height: 0.28rem;
+				height: 0.86rem;
+			}
+			&.active>.desc {
+				background-color: @blue;
+			}
+			>.desc-0 {
+				background-color: #7fa3df;
+			}
+			>.desc-1 {
+				background-color: #7bdda7;
+			}
+			>.desc-2 {
+				background-color: #f0e296;
+			}
+			>.desc-3 {
+				background-color: #f195bc;
+			}
+			>.desc-4 {
+				background-color: #ff9d45;
+			}
+			>.triangle-up {
+				border-width: 0.3rem;
+				border-style: solid;
+				border-top-color: @light-blue;
+				border-right-color: @light-blue;
+				border-left-color: transparent;
+				border-bottom-color: transparent;
+				position: absolute;
+				top: 0;
+				z-index: 5;
+			}
+			>.triangle-down {
+				border-width: 0.3rem;
+				border-style: solid;
+				border-left-color: transparent;
+				border-top-color: transparent;
+				border-right-color: @light-blue;
+				border-bottom-color: @light-blue;
+				position: absolute;
+				bottom: 0;
+				z-index: 5;
+			}
+		}
+	}
+	.block-title>.title-text {
+		color: @white;
+		.ft-16;
+	}
+	.scroll-content.brand {
+		>.reputation {
+			width: 4.66rem;
+			height: 1.34rem;
+			position: absolute;
+			top: 0.36rem;
+			left: 0.29rem;
+			background-color: @dark-blue;
+			line-height: 0.8rem;
+			>.count {
+				.ft-48;
+				text-align: center;
+			}
+		}
+		>.trend {
+			position: absolute;
+			top: 0.98rem;
+			left: 5.25rem;
+			background-color: @dark-blue;
+			width: 10.34rem;
+			height: 6.38rem;
+		}
+		>.cloud {
+			position: absolute;
+			top: 1.9rem;
+			left: 0.29rem;
+			background-color: @dark-blue;
+			width: 4.66rem;
+			height: 5.92rem;
+		}
+	}
+	.scroll-content.service {
+		>.aside-left {
+			line-height: 0.3rem;
+			.ft-20;
+			width: 0.36rem;
+			padding: 1.7rem 0.2rem;
+			float: left;
+			margin-left: 0.4rem;
+			margin-top: 2.73rem;
+			background-color: @dark-blue;
+			text-align: center;
+			color: @grey-white;
+		}
+		>.static-board {
+			width: 3.2rem;
+			margin-left: 0.4rem;
+			margin-top: 0.35rem;
+			float: left;
+			>.top-bar {
+				height: 0.1rem;
+				border-radius: 0.1rem 0.1rem 0 0;
+			}
+			>.bot-bar {
+				height: 0.1rem;
+				border-radius: 0 0 00.1rem 0.1rem;
+			}
+			>.numbers {
+				height: 2.17rem;
+				background-color: @dark-blue;
+				text-align: center;
+			}
+			>.comments {
+				margin-top: 0.1rem;
+				height: 5rem;
+				background-color: @dark-blue;
+			}
+		}
+		.numbers {
+			>.numbers-title {
+				padding-top: 0.1rem;
+				line-height: 0.6rem;
+				.ft-20;
+			}
+			>.num-item {
+				margin-top: 0.1rem;
+				display: inline-block;
+				width: 33.3%;
+				line-height: 0.45rem;	
+			}
+		}
+		.comments {
+			>.comment {
+				height: 0.8rem;
+				margin: 0 0.2rem;
+				padding-top: 0.2rem;
+				line-height: 0.3rem;
+				border-bottom: solid 1px @light-blue;
+				color: @grey-white;
+			}
+		}
+		>.score-board {
+			width: 1.5rem;
+			height: 1.34rem;
+			text-align: center;
+			position: absolute;
+			top: 0.8rem;
+			left: 0.03rem;
+			>.score {
+				line-height: 0.75rem;
+				.ft-48;
+			}
+			>.info {
+				border-top: solid 1px #3f475e;
+				width: 0.7rem;
+				line-height: 0.4rem;
+				margin: 0 auto;
+			}
+		}
+	}
+	.scroll-content.activity {
+		>.trend {
+			width: 9.43rem;
+			height: 6.4rem;
+			background-color: @dark-blue;
+			margin: 0.93rem 0 0 0.46rem;
+			float: left;
+		}
+		>.rank {
+			width: 5.16rem;
+			height: 7.2rem;
+			background-color: @dark-blue;
+			margin: 0.53rem 0 0 0.37rem;
+			float: left;
+			>.title {
+				color: #f5f5f5;
+				line-height: 0.45rem;
+				.ft-18;
+				text-align: center;
+			}
+			>.list-header {
+				height: 0.4rem;
+				line-height: 0.4rem;
+				width: 4.7rem;
+				text-align: center;
+				color: @grey-white;
+			}
+			>.list-item {
+				width: 4.7rem;
+				height: 0.62rem;
+				line-height: 0.62rem;
+				border-top: solid 1px @light-blue;
+				text-align: center;
+				color: @grey-white;
+				position: relative;
+			}
+			>.list-item>.td-l {
+				.ft-16;
+			}
+			>.list-item>.td-m {
+				padding-top: 0.06rem;
+				line-height: 0.5rem;
+			}
+			.td-l {
+				width: 26%;
+				float: left;
+				>.bold {
+					.ft-18;
+				}
+			}
+			.td-m {
+				width: 56%;
+				float: left;
+			}
+			.td-r {
+				width: 18%;
+				float: left;
+			}
+			.ac-link {
+				color: @grey-white;
+				text-decoration: none;
+				display: inline-block;
+				line-height: 0.25rem;
+			}
+			.ac-link:hover {
+				color: @sky-blue;
+			}
+		}
+	}
+	.detail-container {
+		width: 9.87rem;
+		height: 6.30rem;
+		overflow: hidden;
+		margin-top: -3.15rem;
+		margin-left: -4.94rem;
+		border: solid 2px #384259;
+		border-radius: 4px;
+		background-color: @blue;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		>.title {
+			height: 0.5rem;
+			line-height: 0.5rem;
+			text-align: center;
+			.ft-20;
+			background-color: @dark-blue;
+		}
+		>.detail-content {
+			width: 100%;
+			height: 5.8rem;
+		}
+		.detail-item {
+			margin: 0 0.12rem;
+			height: 1.1rem;
+			border-bottom: solid 1px @light-blue;
+		}
+		.labels {
+			width: 2rem;
+			padding-top: 0.07rem;
+			float: left;
+			>.label {
+				width: 0.56rem;
+				height: 0.22rem;
+				text-align: center;
+				line-height: 0.22rem;
+				margin: 0.17rem 0 0 0.1rem;
+				float: left;
+				background-color: @grey-blue;
+				border-radius: 3px;
+			}
+		}
+		.url {
+			width: 2rem;
+			margin-left: 0.7rem;
+			padding-top: 0.25rem;
+			line-height: 0.25rem;
+			color: @grey-white;
+			float: left;
+			word-break: break-all;
+		}
+		.info {
+			width: 2rem;
+			margin-left: 0.6rem;
+			padding-top: 0.25rem;
+			line-height: 0.25rem;
+			color: @grey-white;
+			float: left;	
+		}
+		.view-btn {
+			display: inline-block;
+			margin: 0.42rem 0 0 1rem;
+			width: 0.96rem;
+			height: 0.25rem;
+			text-align: center;
+			background-color: @sky-blue;
+			border-radius: 2px;
+			color: @white;
+			text-decoration: none;
+			cursor: pointer;
+		}
+	}
+	.detail-container.single {
+		height: 1.6rem;
+		margin-top: 0rem;
+		top: 3.5rem;
+		margin-left: -4.94rem;
+		.detail-item {
+			border: none;
+		}
+	}
+}

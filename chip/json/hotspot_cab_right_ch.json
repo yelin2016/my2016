@@ -1,0 +1,34 @@
+{
+    "info":"舆情驾驶舱接口假数据",
+    "status":200,
+    "msg":"success",
+    "rightdata":{
+                "attentionData":[
+                    {"attention":8427,"fame":5249}
+                ],
+                "classifyData":[
+                    {"value":0,"class":"activity","text":"热帖活动"},
+                    {"value":0,"class":"news","text":"热点新闻"},
+                    {"value":0,"class":"product","text":"热点产品"},
+                    {"value":0,"class":"event","text":"热点事件"}
+                ],
+                "leveldata":[
+                    {"level":"一级","value":"4790"},
+                    {"level":"二级","value":"3467"},
+                    {"level":"三级","value":"8962"},
+                    {"level":"四级","value":"3567"}
+                ],
+                "worddata": [
+                    {"num":"1","word":"CHIQ3"},
+                    {"num":"2","word":"小米电视xiaomidainshi"},
+                    {"num":"3","word":"海信新品发布会"},
+                    {"num":"4","word":"长虹电视"},
+                    {"num":"5","word":"长虹电视"},
+                    {"num":"6","word":"长虹电视"},
+                    {"num":"7","word":"长虹电视"},
+                    {"num":"8","word":"长虹电视"},
+                    {"num":"9","word":"长虹电视"},
+                    {"num":"10","word":"长虹电视"}
+                ]     
+            }
+}

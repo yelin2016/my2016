@@ -1,0 +1,86 @@
+{
+	"status":200,
+"msg":"success",
+	"data":[{
+		"brand_img": "url(../../image/logo1.png)",
+		"labels":["产品","发我","产品","产品"],
+		"desc":"我是第一条",
+		"focus_today":1,
+		"focus_total":2,
+		"url":"baidu.com"
+		},
+		{
+		"brand_img": "url(../../image/logo1.png)",
+		"labels":["产品","发我","产品","产品"],
+		"desc":"我是第一条",
+		"focus_today":1,
+		"focus_total":2,
+		"url":"baidu.com"
+		},
+		{
+		"brand_img": "url(../../image/logo1.png)",
+		"labels":["产品","发我","产品","产品"],
+		"desc":"我是第一条",
+		"focus_today":1,
+		"focus_total":2,
+		"url":"baidu.com"
+		},
+		{
+		"brand_img": "url(../../image/logo2.png)",
+		"labels":["产品","发我","产品","产品"],
+		"desc":"我是第一条",
+		"focus_today":1,
+		"focus_total":2,
+		"url":"baidu.com"
+		},
+		{
+		"brand_img": "url(../../image/logo2.png)",
+		"labels":["产品","发我","产品","产品"],
+		"desc":"我是第一条",
+		"focus_today":1,
+		"focus_total":2,
+		"url":"baidu.com"
+		},
+		{
+		"brand_img": "url(../../image/logo2.png)",
+		"labels":["产品","发我","产品","产品"],
+		"desc":"我是第一条",
+		"focus_today":1,
+		"focus_total":2,
+		"url":"baidu.com"
+		},
+		{
+		"brand_img": "url(../../image/logo2.png)",
+		"labels":["产品","发我","产品","产品"],
+		"desc":"我是第一条",
+		"focus_today":1,
+		"focus_total":2,
+		"url":"baidu.com"
+		},
+		{
+		"brand_img": "url(../../image/logo2.png)",
+		"labels":["产品","发我","产品","产品"],
+		"desc":"我是第一条",
+		"focus_today":1,
+		"focus_total":2,
+		"url":"baidu.com"
+		},
+		{
+		"brand_img": "url(../../image/logo2.png)",
+		"labels":["产品","发我","产品","产品"],
+		"desc":"我是第一条",
+		"focus_today":1,
+		"focus_total":2,
+		"url":"baidu.com"
+		},
+		{
+		"brand_img": "url(../../image/logo2.png)",
+		"labels":["产品","发我","产品","产品"],
+		"desc":"我是第一条",
+		"focus_today":1,
+		"focus_total":2,
+		"url":"baidu.com"
+		}
+		]
+
+}

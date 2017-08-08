@@ -1,0 +1,32 @@
+{
+    "info":"舆情驾驶舱接口假数据",
+    "status":200,
+    "msg":"success",
+    "branddata":[
+        {
+            "imgUrl":"../image/icon/icon_ch.png",
+            "brandName":"长虹",
+            "trend":4
+        },
+        {
+            "imgUrl":"../image/icon/icon_xm.png",
+            "brandName":"小米mi",
+            "trend":3
+        },
+        {
+            "imgUrl":"../image/icon/icon_ls.png",
+            "brandName":"乐视TV",
+            "trend":2
+        },
+        {
+            "imgUrl":"../image/icon/icon_hx.png",
+            "brandName":"海信",
+            "trend":1
+        },
+        {
+             "imgUrl":"../image/icon/icon_cw.png",
+             "brandName":"创维",
+             "trend":0
+        }
+    ]
+}

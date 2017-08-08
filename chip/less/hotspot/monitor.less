@@ -1,0 +1,57 @@
+@import '../constants.less';
+
+.hotspot {
+	.list {
+		>.options {
+			height: 1.5rem;
+			>.options_line {
+				position: relative;
+			}
+		}
+		.tablediv {
+			height: 6.9rem;
+		}
+		.table {
+			width: 16rem;
+		}
+		.function_button {
+			position: absolute;
+			top: 0;
+			right: 0;
+		}
+		.chg-container {
+			width: 5.2rem;
+			height: 3rem;
+			border: solid 1px @light-blue;
+			background-color: @blue;
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			margin-top: -1.5rem;
+			margin-left: -2.6rem;
+			>.btn-ok {
+				display: inline-block;
+				width: 1.4rem;
+				height: 0.36rem;
+				margin: 0.6rem 0 0 1.9rem;
+				line-height: 0.36rem;
+				text-align: center;
+				border-radius: 0.03rem;
+			}
+		}
+		.chk-list-wrap	{
+			padding: 0.2rem 0.18rem 0;
+			overflow: hidden;
+		}
+		.select-list {
+			line-height: 0.3rem;
+			width: 1.15rem;
+			margin: 0.2rem 0.2rem 0 0.2rem;
+			color: @grey-white;
+			>.chked,.unchked {
+				vertical-align: top;
+				margin-top: 0.06rem;
+			}
+		}
+	}
+}

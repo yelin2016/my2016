@@ -1,0 +1,11 @@
+{
+    "info":"舆情驾驶舱source假数据",
+    "status":200,
+    "msg":"success",
+    "data":[
+              {"value":12, "name":"权威网站","itemStyle":{"normal":{"color": "#82a9ea"}}},
+              {"value":6310, "name":"微博","itemStyle":{"normal":{"color": "#769aeb"}}},
+              {"value":334, "name":"电商","itemStyle":{"normal":{"color": "#7182e9"}}},
+              {"value":35, "name":"论坛","itemStyle":{"normal":{"color": "#626be2"}}}
+           ]
+}

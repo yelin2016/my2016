@@ -1,0 +1,49 @@
+{
+	"info":"舆情看板弹框显示六条数据接口假数据",
+	"status":200,
+	"msg":"success",
+	"data": [
+		{
+			"id": 1001,
+			"brand_name": "奇珀网",
+			"desc": "联系客服处理一个问题，半天得不到回复，我电话都打了无数个，就这样对待我们消费者的哦，刚刚买了就做活动降价，联系客服退差价说要请示，请示了那么多天。",
+			"alert_time": "2015-12-03 15:33",
+			"url": "http://www.baidu.com"
+		},
+		{
+			"id": 1002,
+			"brand_name": "长虹论坛",
+			"desc": "联系客服处理，这个系统简直不好用。",
+			"alert_time": "2015-12-03 15:33",
+			"url": "http://www.baidu.com"
+		},
+		{
+			"id": 1003,
+			"brand_name": "长虹论坛",
+			"desc": "联系客服处理，这个系统简直不好用。",
+			"alert_time": "2015-12-03 15:33",
+			"url": "http://www.baidu.com"
+		},
+		{
+			"id": 1004,
+			"brand_name": "长虹论坛",
+			"desc": "联系客服处理，这个系统简直不好用。",
+			"alert_time": "2015-12-03 15:33",
+			"url": "http://www.baidu.com"
+		},
+		{
+			"id": 1005,
+			"brand_name": "长虹论坛",
+			"desc": "联系客服处理，这个系统简直不好用。",
+			"alert_time": "2015-12-03 15:33",
+			"url": "http://www.baidu.com"
+		},
+		{
+			"id": 1006,
+			"brand_name": "长虹论坛",
+			"desc": "联系客服处理，这个系统简直不好用。",
+			"alert_time": "2015-12-03 15:33",
+			"url": "http://www.baidu.com"
+		}
+	]
+}

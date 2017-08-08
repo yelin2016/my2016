@@ -1,0 +1,28 @@
+{
+	"info":"舆情看板接口假数据",
+	"status":200,
+	"msg":"success",
+	"data":{
+		"categoryData":[
+			{"num":54,"category":"总舆情"},
+			{"num":812,"category":"热度"},
+			{"num":3259,"category":"点击量"},
+			{"num":1263,"category":"回复量"}
+		],
+		"levelData":[
+			{"num":15,"newAdd":5,"level":"red"},
+			{"num":12,"newAdd":2,"level":"orange"},
+			{"num":20,"newAdd":16,"level":"yellow"},
+			{"num":11,"newAdd":1,"level":"blue"}
+		],
+		"brandData": [
+			{"num":23,"brandId":"changhong","brandName":"长虹","newAdd":13,"focus":3000,"hot":12,"activity":3},
+			{"num":15,"brandId":"xiaomi","brandName":"小米电视","newAdd":6,"focus":3,"hot":4,"activity":5},
+			{"num":14,"brandId":"leshi","brandName":"乐视TV","newAdd":0,"focus":3,"hot":4,"activity":5},
+			{"num":11,"brandId":"chuangwei","brandName":"创维","newAdd":0,"focus":3,"hot":4,"activity":5},
+			{"num":9,"brandId":"haixin","brandName":"海信","newAdd":0,"focus":3,"hot":4,"activity":5},
+			{"num":8,"brandId":"tcl","brandName":"TCL","newAdd":0,"focus":3,"hot":4,"activity":5},
+			{"num":5,"brandId":"kangjia","brandName":"康佳","newAdd":0,"focus":3,"hot":4,"activity":5}
+		]
+	}
+}

@@ -1,0 +1,13 @@
+{
+    "info":"舆情驾驶舱type假数据",
+    "status":200,
+    "msg":"success",
+    "data":[
+              {"value":335, "name":"其他22222","itemStyle":{"normal":{"color": "#ffe345"}}},
+              {"value":310, "name":"功能","itemStyle":{"normal":{"color": "#ffd145"}}},
+              {"value":234, "name":"品牌","itemStyle":{"normal":{"color": "#ffbb45"}}},
+              {"value":135, "name":"活动","itemStyle":{"normal":{"color": "#ff9d45"}}},
+              {"value":134, "name":"产品","itemStyle":{"normal":{"color": "#ff8745"}}},
+              {"value":165, "name":"服务","itemStyle":{"normal":{"color": "#ff6c45"}}}
+           ]
+}

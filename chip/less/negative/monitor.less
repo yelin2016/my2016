@@ -1,0 +1,186 @@
+@import '../constants.less';
+
+.negative-monitor {
+	> .cur-total {
+		width: 7.2rem;
+		height: 1.7rem;
+		float: left;
+		margin-top: 0.38rem;
+		margin-left: 0.3rem;
+		color: @white;
+	}
+	> .cur-total > .title {
+		height: 0.4rem;
+		line-height: 0.4rem;
+		.ft-18;
+	}
+	> .cur-total > .prop-list {
+		height: 1.3rem;
+		padding-left: 0.09rem;
+		text-align: center;
+		background-color: @blue;
+	}
+	.prop-list > .prop-item {
+		height: 100%;
+		width: 1.4rem;
+		float: left;
+	}
+	.prop-item > .num {
+		display: block;
+		margin-top: 0.2rem;
+		height: 0.54rem;
+		line-height: 0.54rem;
+		.ft-30;
+	}
+	.prop-item > .category {
+		line-height: 0.44rem;
+		.ft-16;
+		color: @grey-white;
+	}
+	> .level-total {
+		width: 8.6rem;
+		height: 1.65rem;
+		float: left;
+		margin-top: 0.4rem;
+		margin-left: 0.4rem;
+	}	
+	.count-circle {
+		margin: 0 0.54rem 0 0;
+		.new-add {
+			border: solid 0.04rem @light-blue;
+		}
+	}
+	.cate-detail {
+		width: 3.8rem;
+		height: 6.54rem;
+		float: left;
+		margin-top: 0.38rem;
+		margin-left: 0.3rem;
+		background: #fef;
+		background-color: @blue;
+
+		> .title {
+			height: 0.5rem;
+			line-height: 0.5rem;
+			text-indent: 0.2rem;
+			margin-bottom: 0.2rem;
+			.ft-18;
+			color: @white;
+			background-color: @dark-blue;
+			border-bottom: solid 2px @light-blue;
+		}
+		> .level-item {
+			height: 0.7rem;
+			margin-top: 0.1rem;
+			margin-left: 0.15rem;
+			margin-right: 0.15rem;
+			line-height: 0.7rem;
+			background-color: @dark-blue;
+			border-left: solid 0.05rem @dark-red;
+			position: relative;
+			&.red {
+				border-color: @dark-red;
+				> .new-add {
+					background-color: #f23555;
+				}
+			}
+			&.orange {
+				border-color: @dark-orange;
+				> .new-add {
+					background-color: #ffb515;	
+				}
+			}
+			&.yellow {
+				border-color: @dark-yellow;
+				> .new-add {
+					background-color: #ffe96f;
+				}
+			}
+			&.blue {
+				border-color: @dark-cyan;
+				> .new-add {
+					background-color: #40e2ff;
+				}
+			}
+			> .new-add {
+				display: none;
+				height: 0.2rem;
+				line-height: 0.2rem;
+				position: absolute;
+				top: 0;
+				left: 0;
+				padding: 0 0.1rem;
+				color: @dark-blue;
+				&.show {
+					display: block;
+				}
+			}
+			> .count {
+				width: 0.8rem;
+				float: left;
+				color: @white;
+				text-indent: 0.15rem;
+				.ft-18;
+			}
+			> .labels {
+				float: left;
+				width: 0.95rem;
+				height: 0.4rem;
+				line-height: 0.2rem;
+				margin: 0.15rem 0.05rem 0 0.05rem;
+				color: @grey-white;
+			}
+			> .view-detail {
+				float: right;
+				margin-right: 0.1rem;
+				color: @sky-blue;
+				text-decoration: underline;
+			}
+		}
+		> .cate-negative-trend {
+			margin-top: 0.2rem;
+			> .category-chart {
+				width: 3.6rem;
+				height: 1.8rem;
+				margin: 0 auto;
+			}
+		}
+		.switch-board {
+			height: 0.3rem;
+			line-height: 0.3rem;
+			margin-top: 0.1rem;
+			text-align: center;
+			> .switch-btn {
+				display: inline-block;
+				min-width: 0.77rem;
+				color: @white;
+				background-color: @grey-blue;
+				cursor: pointer;
+				&.active {
+					background-color: @sky-blue;
+				}
+			}
+		}
+	}
+	.newadd-category {
+		overflow: hidden;
+		position: absolute;
+		height: 0.8rem;
+		top: 0.2rem;
+		left: 0;
+		line-height: 0.2rem;
+		z-index: 5;
+		color: @grey-white;
+		background-color: @blue;
+		transition: height 0.3s ease-in-out;
+	}
+	.trend-icon {
+		display: inline-block;
+		width: 0.5rem;
+		height: 0.5rem;
+		vertical-align: top;
+		background-position: center center;
+		background-repeat: no-repeat;
+		background-size: auto 60%;
+	}
+}

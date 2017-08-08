@@ -1,0 +1,39 @@
+{
+	"info":"负面舆情分布页面关注度假数据",
+	"status":200,
+	"msg":"success",
+	"data": {
+		"level1": [
+	 		{"value":700, "name":"品牌","info":"brand","label": {"normal": {"show": true}}},
+			{"value":500, "name":"产品","info":"product","label": {"normal": {"show": true}}},
+			{"value":300, "name":"功能","info":"feature","label": {"normal": {"show": true}}},
+			{"value":200, "name":"服务","info":"service","label": {"normal": {"show": true}}}
+    ],
+    "level2": {
+    	"brand": [
+      	{"value":335, "name":"论坛"},
+		    {"value":310, "name":"电商"},
+		    {"value":234, "name":"权威网站"},
+		    {"value":135, "name":"微博"}
+	    ],
+	    "product": [
+      	{"value":335, "name":"论坛"},
+		    {"value":310, "name":"电商"},
+		    {"value":234, "name":"权威网站"},
+		    {"value":135, "name":"微博"}
+	    ],
+	    "feature": [
+      	{"value":335, "name":"论坛"},
+		    {"value":310, "name":"电商"},
+		    {"value":234, "name":"权威网站"},
+		    {"value":135, "name":"微博"}
+	    ],
+	    "service": [
+      	{"value":335, "name":"论坛"},
+		    {"value":310, "name":"电商"},
+		    {"value":234, "name":"权威网站"},
+		    {"value":135, "name":"微博"}
+	    ]
+    }
+	}
+}

@@ -1,0 +1,352 @@
+@import '../constants.less';
+
+.special {
+	
+	 .special-activity {
+		margin: 0.2rem;
+		
+		background-color: @blue;
+        z-index: 1;
+	    .activity-header{
+			height: 0.9rem;
+			width: 100%;
+			text-align: center;
+			font-family:"方正细等线简体";
+            .activity-header-title{
+                margin-top: 0.26rem;
+                margin-bottom: 0.36rem;
+                margin-right: 0.5rem;
+				width: 2.11rem;
+				height: 0.28rem;
+				display: inline-block;
+				.activity-header-name{
+					text-align: right;
+					.ft-14;
+					color: @white;
+					vertical-align: middle;
+					width: 1.02rem;
+					height: 0.28rem;
+					margin-right: 0.05rem;
+					display: inline-block;
+					overflow: hidden;
+				}
+				.activity-header-input{
+					overflow: hidden;
+					float: right;
+					height: 0.28rem;
+					width: 1.04rem;
+					background-color: #324866;
+					display: inline-block;
+					border: none;
+					border-radius: 0.02rem;
+					color:#8ba7bf;
+				}
+				.activity-select{
+					
+					
+					border: none;
+					
+					float: right;
+					.droplist{
+						display:inline-block;
+						width: 1.04rem;
+					    height:0.28rem;
+						
+						border-radius: 0.02rem;
+					}
+
+				}
+
+            }
+            .options_time{
+            	margin-top: 0.26rem;
+            	margin-bottom: 0.36rem;
+            	margin-right: 0.5rem;
+				width: 4.20rem;
+				height: 0.28rem;
+				display: inline-block;
+				.options_time_title{
+					height: 0.28rem;
+					display: inline-block;
+					overflow: hidden;
+					text-align: right;
+					vertical-align: middle;
+					.ft-14;
+					color: @white;
+					margin-right: 0.05rem;
+					width: 1.0rem;
+				}
+				.options_time_to{
+					height: 0.28rem;
+					width: 0.32rem;
+					.ft-14;
+					color: @white;
+					display: inline-block;
+					text-align: center;
+					vertical-align: middle;
+				}
+				.options_time_input{
+					height: 0.28rem;
+					width: 1.40rem;
+					background-color: #324866;
+					display: inline-block;
+					border: none;
+					border-radius: 0.04rem;
+					color:#8ba7bf;
+				}
+            }
+            .activity-button{
+            	
+				display: inline-block;
+				width: 1.02rem;
+				height: 0.30rem;
+				border: none;
+				border-radius: 0.02rem;
+				color: @white;
+				.ft-14;
+				margin-top: 0.26rem;
+				margin-bottom: 0.36rem;
+				margin-right: 0.30rem;
+				
+				background-color: #6aaefc;
+            }
+		}
+		.activity-table-div{
+			height: 7.10rem;
+		    overflow: hidden;
+		}
+		.activity-table{
+			color: #8ba7bf;
+			.ft-14;
+			text-align: center;
+			margin:0 auto;
+			width: 15.85rem;
+			border-collapse: collapse;
+			font-family:"方正细等线简体";
+			.activity-url{
+                text-align: left;
+				.ft-12;
+	    		padding: 0.1 0.1rem;
+			}
+			.activity-zhuti{text-align: left;}
+			.activity-table-thead{
+				height:0.42rem;
+			}
+			.activity-width-241{width:2.41rem}
+			.activity-width-110{width:1.10rem}
+			.activity-width-240{width:2.40rem}
+			.activity-width-94{width:0.94rem}
+			.activity-width-120{width:1.20rem;}
+			.activity-width-130{width:1.30rem}
+			.activity-width-181{width:1.81rem}
+			.activity-width-70{width:0.70rem}
+			th{border: solid 1px #3f475e;}
+			td{
+			border: solid 1px #3f475e;
+			word-break: break-all;
+			height:1.04rem;
+			padding: 0.1rem 0.1rem;
+		    }
+		    .activity-tr-color{
+		    	background-color: @dark-blue;
+		    }
+		    .activity-action{
+			>a{
+				color: #6aaefc;
+				line-height: 0.38rem;
+				text-decoration: underline;
+				cursor: pointer;
+		     }
+		     }
+        }
+        .acdetails-background{
+        		width: 100%;
+				height: 100%;
+				position: fixed;
+				top: 0;
+				left: 0;
+				z-index: 200;
+				background-color: rgba(0,0,0,0.6);
+				display:none;
+        }
+		.acdetails{
+			height: 8.83rem;
+			width: 15.12rem;
+			position: absolute;
+			top:0.5rem;
+			right:1rem;
+			background-color: @blue;
+			display:none;
+			
+			.detailsheader-1{
+				height:0.56rem;
+				color:#ffffff;
+				.ft-24;
+				background-color: @dark-blue;
+				text-align: center;
+				line-height: 0.56rem;
+				font-family: "方正兰亭黑-YS-GB2312";
+				.detailheader-12{
+					display:inline-block;
+					height:0.28rem;
+					width:0.28rem;
+					background-image: url(../../image/icon/icon_16.png);
+                    background-size: 0.28rem 0.28rem;
+                    background-repeat: no-repeat;
+					float:right;
+					margin-top: 0.1rem;
+					margin-right: 0.15rem;
+					
+				}
+			}
+			.detailsheader-2{
+				margin:0.28rem 0;
+				font-family: "方正细等线简体";
+				.detailsheader-21{
+					.ft-20;
+					color:@white;
+					display:inline-block;
+					margin-left: 1.10rem;
+					margin-right: 0.22rem;
+				}
+				.detailsheaderinput{
+					
+					color:#cccccc;
+					border: none;
+					display:inline-block;
+					margin-left: 0.20rem;
+			        background-color: #324866;
+			        height:0.22rem;
+			        width:0.56rem;
+			        border-radius: 0.04rem;
+			        text-align: center;
+			        .ft-12;
+				}
+				.detailsheader-22{
+					display:inline-block;
+					color: @white;
+					.ft-16;
+					margin-left: 0.5rem;
+				}
+			}
+
+			.activmiddle{
+				display:inline-block;
+				width:14.20rem;
+				height:2.97rem;
+				border-top:0.01rem solid  #35475e;
+				border-bottom:0.01rem solid  #35475e;
+			    vertical-align: middle;
+				margin-left: 0.46rem;
+				margin-right: 0.46rem;
+			    .activmiddle-1{
+			    	height:2.97rem;
+                    width:3.3rem;
+                    
+			    	float:left;
+			    	text-align: center;
+			    	vertical-align: middle;
+			    }
+			    .activmiddle-2{
+			    	height:2.97rem;
+                    width:4.3rem;
+                    
+			    	float:left;
+			    	text-align: center;
+			    	vertical-align: middle;
+			    }
+			}
+			.detailfooter{
+				width:13.66rem;
+				height:4.5rem;
+				clear:both;
+				margin:0 auto;
+
+			    .detailfooter-title{
+			    	display:inline-block;
+	                height:0.34rem;
+	                width:0.34rem;
+	                border:none;
+	                position:absolute;
+	                top:4.65rem;
+	                right:1rem;
+	                background-image: url(../../image/compare_condition.png);
+	                background-size: 0.34rem 0.34rem;
+	                z-index: 1
+				}
+				.detailfooter-compare{
+					z-index: 1;
+				    display:none;
+					height:1.3rem;
+					width:1.2rem;
+					position:absolute;
+					top:5.1rem;
+					right:0.67rem;
+					background-color: #19273a;
+					opacity:0.9;
+					.ft-14;
+					color:#8ba7bf;
+					text-align: center;
+			        .compare-input{
+			        	display:inline-block;
+			        	margin:0.04rem auto;
+			        	
+					.big{
+					    display: inline-block;
+					    height: 0.16rem;
+					    width: 0.16rem;
+					   
+					    border-radius: 0.08rem;
+					    background-color: @light-blue;
+                        margin-right: 0.1rem;
+
+					}
+					.small{
+					    margin:0.04rem;
+					   
+					    height: 0.08rem;
+					    width: 0.08rem;
+					    display: inline-block;
+					    border-radius: 0.04rem;
+					    background-color: #6aaefc;
+					}
+					.unsmall{
+						margin:0.04rem;
+					   
+					    height: 0.08rem;
+					    width: 0.08rem;
+					    display: none;
+					    border-radius: 0.04rem;
+					    background-color: #6aaefc;
+					}
+
+			        }
+					.detailfooter-button{
+						display:inline-block;
+
+						height:0.3rem;
+						width:0.6rem;
+						background-color: @sky-blue;
+						border: none;
+						color:@white;
+						border-radius: 0.02rem;
+						.ft-16;
+					}
+				}
+				.detailfooter-compareshow{
+					display:block;
+				}
+				.detailfooter-comparehide{
+					display:none;
+				}
+				.detailfooter-body{
+					height:4.50rem;
+					width:13.66rem;
+				}
+		    }
+        }
+
+	}
+
+}
+
