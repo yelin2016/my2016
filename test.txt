@@ -1,0 +1,62 @@
+.account_root{
+	width: 10rem;
+	overflow: hidden;
+	position: absolute;
+	top: 1.86rem;
+	left:3.47rem;
+	.account_box{
+		height: 4.28rem;
+		width: 3.28rem;
+		float: left;
+		a{
+			display: block;
+			text-decoration: none;
+			font-family: Tunga;
+			font-size:4.3rem;
+			color: #e9ecf3;
+			font-weight: bold;
+			height: 3.20rem;
+			width: 3.38rem;
+
+			line-height: 3.2rem;
+			padding-top: 0.4rem;
+			padding-left: 0.4rem;
+			box-sizing: border-box;
+		}
+		a:hover{
+			color: #fb452f;
+			-webkit-transform: translateY(-0.25rem);
+			-moz-transform: translateY(-0.25rem);
+			-ms-transform: translateY(-0.25rem);
+			-o-transform: translateY(-0.25rem);
+			transform: translateY(-0.25rem);
+			text-shadow: 0rem 0.3rem 0.3rem #fee3e0;
+			cursor:pointer;
+		}
+		.account_title{
+			width: 3.28rem;
+			font-size: 0.25rem;
+			font-family: Arial;
+			padding-left: 0.5rem;
+			box-sizing: border-box;
+			.account_title1{
+				color:#707070;
+			}
+			.account_title3{
+				color:#b9bbbf;
+			}
+			.account_title2{
+				font-family: Î¢ÈíÑÅºÚ;
+				font-size: 0.18rem;
+				color:#7d7d7d;
+				margin-top: 0.16rem;
+			}
+		}
+
+	}
+
+
+
+
+
+}
